@@ -30,8 +30,5 @@ eval "$(starship init zsh)"
 
 ## Screenshots
 
-`starship_green.png`:
-![starship_green.toml active in terminal](screenshots/green.png)
-
-`starship_blue.png`:
-![starship_blue.toml active in terminal](screenshots/blue.png)
+- [starship_green.png](screenshots/green.png)
+- [starship_blue.png](screenshots/blue.png)
