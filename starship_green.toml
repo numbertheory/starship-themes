@@ -1,0 +1,57 @@
+format = """
+[░▒▓](#aed2a3)\
+$os\
+$username$hostname\
+[](bg:#5f9046 fg:#aed2a3)\
+$directory\
+[](fg:#5f9046)
+$git_branch\
+$git_status\
+[](fg:#394260 bg:#212736)\
+$nodejs\
+$python\
+[](fg:#1d2230)\
+\n$character"""
+
+[username]
+show_always = true
+format = '[ $user](bg:#aed2a3 fg:#090c0c bold)'
+disabled = false
+
+[hostname]
+ssh_only = false
+format = '[@$hostname](bg:#aed2a3 fg:#090c0c bold)'
+
+[directory]
+style = "fg:#FFFFFF bg:#5f9046 bold"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[git_commit]
+format = '[\($hash\)](yellow)[$tag](blue bold) '
+tag_disabled = false
+only_detached = false
+tag_symbol = ' 󱩺 '
+
+[git_branch]
+format = '[ $symbol$branch(:$remote_branch)](fg:#00FFFF bg:#394260)'
+
+[git_status]
+format = '([ \[$all_status$ahead_behind\]](fg:#ce2029 bg:#394260 bold))'
+
+[python]
+format = '[ $symbol${pyenv_prefix}(${version}) (\($virtualenv\) )](fg:#FFFFFF bg:#1d2230)'
+symbol = '󰌠 '
+
+[nodejs]
+format = ' [$symbol$version](fg:#212736 bg:#1d2230) '
+
+[os]
+format = "[$symbol](bg:#aed2a3 fg:#090c0c bold)"
+disabled = false
+
+[os.symbols]
+Macos = "  "
+Mint = " 󰌪 "
