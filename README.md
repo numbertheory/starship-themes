@@ -8,7 +8,8 @@ My collected themes for Starship.rs.
 
 ## Features
 - Icons to differentiate between operating systems.
-- Multiple colors to differentiate between servers.
+    ![git status shown in terminal](screenshots/os_icon_shown.png)
+- Multiple colors to differentiate between servers (see Screenshots below).
 - Git status indicators built in:
     ![git status shown in terminal](screenshots/git_status_shown.png)
 
