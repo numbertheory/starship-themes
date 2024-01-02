@@ -10,7 +10,7 @@ $git_status\
 [](fg:#394260 bg:#212736)\
 $nodejs\
 $python\
-[](fg:#212736 bg:#1d2230)\
+[](fg:#1d2230)\
 \n$character"""
 
 [username]
@@ -46,7 +46,7 @@ format = '[ $symbol${pyenv_prefix}(${version}) (\($virtualenv\) )](fg:#FFFFFF bg
 symbol = '󰌠 '
 
 [nodejs]
-format = ' [$symbol$version](fg:#212736 bg:#1d2230) '
+format = '[ $symbol$version ](fg:#FFFFFF bg:#1d2230)'
 
 [os]
 format = "[$symbol](bg:#a3aed2 fg:#090c0c bold)"

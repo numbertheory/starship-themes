@@ -7,10 +7,10 @@ $directory\
 [](fg:#5f9046)
 $git_branch\
 $git_status\
-[](fg:#394260 bg:#212736)\
+[](fg:#426039 bg:#22301d)\
 $nodejs\
 $python\
-[](fg:#1d2230)\
+[](fg:#22301d)\
 \n$character"""
 
 [username]
@@ -36,17 +36,17 @@ only_detached = false
 tag_symbol = ' 󱩺 '
 
 [git_branch]
-format = '[ $symbol$branch(:$remote_branch)](fg:#00FFFF bg:#394260)'
+format = '[ $symbol](fg:#eeebef bg:#426039)[$branch(:$remote_branch)](fg:#eeebef bg:#426039)'
 
 [git_status]
-format = '([ \[$all_status$ahead_behind\]](fg:#ce2029 bg:#394260 bold))'
+format = '([ \[$all_status$ahead_behind\]](fg:#ce2029 bg:#426039 bold))'
 
 [python]
-format = '[ $symbol${pyenv_prefix}(${version}) (\($virtualenv\) )](fg:#FFFFFF bg:#1d2230)'
+format = '[ $symbol${pyenv_prefix}(${version}) (\($virtualenv\) )](fg:#FFFFFF bg:#22301d)'
 symbol = '󰌠 '
 
 [nodejs]
-format = ' [$symbol$version](fg:#212736 bg:#1d2230) '
+format = '[ $symbol$version ](fg:#FFFFFF bg:#22301d)'
 
 [os]
 format = "[$symbol](bg:#aed2a3 fg:#090c0c bold)"
