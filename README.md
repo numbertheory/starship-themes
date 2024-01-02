@@ -7,11 +7,9 @@ My collected themes for Starship.rs.
 `starship_blue.toml` and `starship_green.toml` are taken from Starship's own [Tokyo Night Preset](https://starship.rs/presets/tokyo-night.html)
 
 ## Features
-- Icons to differentiate between operating systems.
-    ![git status shown in terminal](screenshots/os_icon_shown.png)
+- Icons to differentiate [between operating systems](screenshots/os_icon_shown.png).
 - Multiple colors to differentiate between servers (see Screenshots below).
-- Git status indicators built in:
-    ![git status shown in terminal](screenshots/git_status_shown.png)
+- [Git status indicators](screenshots/git_status_shown.png) built in.
 
 
 ## Installation
