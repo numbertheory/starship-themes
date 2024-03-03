@@ -23,7 +23,7 @@ ssh_only = false
 format = '[@$hostname](bg:#d73737 fg:#090c0c)'
 
 [directory]
-style = "fg:#FFFFFF bg:#a30000 bold"
+style = "fg:#FFFFFF bg:#a30000"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -55,3 +55,4 @@ disabled = false
 [os.symbols]
 Macos = "  "
 Mint = " 󰌪 "
+Solus = " 🫠 "
