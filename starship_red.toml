@@ -15,12 +15,12 @@ $python\
 
 [username]
 show_always = true
-format = '[ $user](bg:#d73737 fg:#090c0c bold)'
+format = '[ $user](bg:#d73737 fg:#090c0c)'
 disabled = false
 
 [hostname]
 ssh_only = false
-format = '[@$hostname](bg:#d73737 fg:#090c0c bold)'
+format = '[@$hostname](bg:#d73737 fg:#090c0c)'
 
 [directory]
 style = "fg:#FFFFFF bg:#a30000 bold"
