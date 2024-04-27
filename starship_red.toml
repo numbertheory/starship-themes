@@ -55,3 +55,4 @@ disabled = false
 [os.symbols]
 Macos = "  "
 Mint = " 󰌪 "
+Fedora = "  "
