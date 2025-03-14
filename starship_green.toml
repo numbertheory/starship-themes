@@ -4,6 +4,7 @@ $os\
 $username$hostname\
 [](bg:#5f9046 fg:#aed2a3)\
 $directory\
+$cmd_duration\
 [](fg:#5f9046)
 $git_branch\
 $git_status\
@@ -56,3 +57,7 @@ disabled = false
 Macos = "  "
 Mint = " 󰌪 "
 Fedora = "  "
+
+[cmd_duration]
+min_time = 500
+format = '[$duration](bg:#5f9046 fg:#ffffff bold)'
