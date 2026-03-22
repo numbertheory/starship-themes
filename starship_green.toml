@@ -57,6 +57,7 @@ disabled = false
 Macos = "  "
 Mint = " 󰌪 "
 Fedora = "  "
+NixOS = " "
 
 [cmd_duration]
 min_time = 500

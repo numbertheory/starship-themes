@@ -56,3 +56,5 @@ disabled = false
 Macos = "  "
 Mint = " 󰌪 "
 Fedora = "  "
+NixOS = " "
+CachyOS = " "
