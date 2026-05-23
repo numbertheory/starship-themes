@@ -59,6 +59,7 @@ Mint = " 󰌪 "
 Fedora = "  "
 NixOS = " "
 CachyOS = " "
+Ubuntu = ""
 
 [cmd_duration]
 min_time = 500
