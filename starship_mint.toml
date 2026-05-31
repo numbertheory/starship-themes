@@ -5,10 +5,10 @@ $username$hostname\
 [](bg:#70D6A8 fg:#b8e8d0)\
 $directory\
 $cmd_duration\
-[](fg:#70D6A8)\
+[](fg:#70D6A8)
 $git_branch\
 $git_status\
-[](fg:#2C7A50 bg:#1a4d30)\
+[](fg:#2C7A50 bg:#0e2b1a)\
 $nodejs\
 $python\
 [](fg:#0e2b1a)\
