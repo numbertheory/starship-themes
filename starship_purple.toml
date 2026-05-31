@@ -25,7 +25,7 @@ format = '[@$hostname](bg:#c4a9d4 fg:#090c0c bold)'
 
 [directory]
 style = "fg:#6B3FA0 bg:#9b6dd7 bold"
-format = "[$path]($style)"
+format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "../"
 truncate_to_repo = false

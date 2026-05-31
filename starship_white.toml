@@ -25,7 +25,7 @@ format = '[@$hostname](bg:#f0f0f0 fg:#090c0c bold)'
 
 [directory]
 style = "fg:#2c2c2c bg:#e0e0e0 bold"
-format = "[$path]($style)"
+format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "../"
 truncate_to_repo = false
@@ -63,4 +63,4 @@ Ubuntu = ""
 
 [cmd_duration]
 min_time = 500
-format = '[$duration](bg:#e0e0e0 fg:#090c0c)'
+format = '[$duration](bg:#e0e0e0 fg:#090c0c bold)'
