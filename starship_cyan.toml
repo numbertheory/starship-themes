@@ -1,0 +1,66 @@
+format = """
+[░▒▓](#b8e8f0)\
+$os\
+$username$hostname\
+[](bg:#00BCD4 fg:#b8e8f0)\
+$directory\
+$cmd_duration\
+[](fg:#00BCD4)
+$git_branch\
+$git_status\
+[](fg:#006064 bg:#001c1e)\
+$nodejs\
+$python\
+[](fg:#001c1e)\
+\n$character"""
+
+[username]
+show_always = true
+format = '[ $user](bg:#b8e8f0 fg:#090c0c bold)'
+disabled = false
+
+[hostname]
+ssh_only = false
+format = '[@$hostname](bg:#b8e8f0 fg:#090c0c bold)'
+
+[directory]
+style = "fg:#005060 bg:#00BCD4 bold"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[git_commit]
+format = '[\($hash\)](yellow)[$tag](blue bold) '
+tag_disabled = false
+only_detached = false
+tag_symbol = ' 󱩺 '
+
+[git_branch]
+format = '[ $symbol$branch(:$remote_branch)](fg:#E0F7FA bg:#006064)'
+
+[git_status]
+format = '([ \[$all_status$ahead_behind\]](fg:#ff4444 bg:#006064 bold))'
+
+[python]
+format = '[ $symbol${pyenv_prefix}(${version}) (\($virtualenv\) )](fg:#FFFFFF bg:#001c1e)'
+symbol = '󰌠 '
+
+[nodejs]
+format = '[ $symbol$version ](fg:#FFFFFF bg:#001c1e)'
+
+[os]
+format = "[$symbol](bg:#b8e8f0 fg:#090c0c bold)"
+disabled = false
+
+[os.symbols]
+Macos = "  "
+Mint = " 󰌪 "
+Fedora = "  "
+NixOS = " "
+CachyOS = " "
+Ubuntu = ""
+
+[cmd_duration]
+min_time = 500
+format = '[$duration](bg:#00BCD4 fg:#e2e2e2)'
