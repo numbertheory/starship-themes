@@ -16,15 +16,15 @@ $python\
 
 [username]
 show_always = true
-format = '[ $user](bg:#c4a9d4 fg:#090c0c bold)'
+format = '[ developer](bg:#c4a9d4 fg:#090c0c bold)'
 disabled = false
 
 [hostname]
 ssh_only = false
-format = '[@$hostname](bg:#c4a9d4 fg:#090c0c bold)'
+format = '[@machine](bg:#c4a9d4 fg:#090c0c bold)'
 
 [directory]
-style = "fg:#DFF0C6 bg:#9b6dd7 bold"
+style = "fg:#33195D bg:#9b6dd7 bold"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "../"
