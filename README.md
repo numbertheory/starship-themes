@@ -30,6 +30,42 @@ eval "$(starship init zsh)"
 
 ## Screenshots
 
-- [starship_red.toml](screenshots/red.png)
-- [starship_green.toml](screenshots/green.png)
-- [starship_blue.toml](screenshots/blue.png)
+[Blue](starship_blue.toml):
+
+![starship_blue.toml](screenshots/blue.png)
+
+[Cyan](starship_cyan.toml):
+
+![starship_cyan.toml](screenshots/cyan.png)
+
+[Green](starship_green.toml):
+
+![starship_green.toml](screenshots/green.png)
+
+[Midnight](starship_midnight.toml):
+
+![starship_midnight.toml](screenshots/midnight.png)
+
+[Mint](starship_mint.toml):
+
+![starship_mint.toml](screenshots/mint.png)
+
+[Orange](starship_orange.toml):
+
+![starship_orange.toml](screenshots/orange.png)
+
+[Pink](starship_pink.toml):
+
+![starship_pink.toml](screenshots/pink.png)
+
+[Purple](starship_purple.toml):
+
+![starship_purple.toml](screenshots/purple.png)
+
+[Red](starship_red.toml):
+
+![starship_red.toml](screenshots/red.png)
+
+[White](starship_white.toml):
+
+![starship_white.toml](screenshots/white.png)
