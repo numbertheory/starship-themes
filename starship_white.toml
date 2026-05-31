@@ -63,4 +63,4 @@ Ubuntu = ""
 
 [cmd_duration]
 min_time = 500
-format = '[$duration](bg:#e0e0e0 fg:#090c0c bold)'
+format = '[$duration](bg:#e0e0e0 fg:#090c0c)'

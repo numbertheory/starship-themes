@@ -50,7 +50,7 @@ symbol = '󰌠 '
 format = '[ $symbol$version ](fg:#FFFFFF bg:#1d2230)'
 
 [os]
-format = "[$symbol](bg:#a3aed2 fg:#090c0c bold)"
+format = "[$symbol](bg:#a3aed2 fg:#090c0c)"
 disabled = false
 
 [os.symbols]
