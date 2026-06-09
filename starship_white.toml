@@ -8,7 +8,7 @@ $cmd_duration\
 [](fg:#e0e0e0)
 $git_branch\
 $git_status\
-[](fg:#b0b0b0 bg:#555555)\
+[](fg:#666666 bg:#555555)\
 $nodejs\
 $python\
 [](fg:#555555)\
@@ -37,10 +37,10 @@ only_detached = false
 tag_symbol = ' 󱩺 '
 
 [git_branch]
-format = '[ $symbol$branch(:$remote_branch)](fg:#5c6bc0 bg:#b0b0b0)'
+format = '[ $symbol$branch(:$remote_branch)](fg:#C9FFE5 bg:#666666)'
 
 [git_status]
-format = '([ \[$all_status$ahead_behind\]](fg:#ce2029 bg:#b0b0b0 bold))'
+format = '([ \[$all_status$ahead_behind\]](fg:#ce2029 bg:#666666 bold))'
 
 [python]
 format = '[ $symbol${pyenv_prefix}(${version}) (\($virtualenv\) )](fg:#090c0c bg:#555555)'
